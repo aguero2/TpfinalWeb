@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <script src="/formulario.js" defer></script>
     <title>Contacto</title>
 </head>
@@ -17,10 +18,17 @@
         </nav>
     </header>
     <main>
-        <form action=""> 
-            <label for="f"></label>
+        <form class="contForm">
+            <label for="f_name">Nombre</label>
+            <input type="text" id="f_name">
+            <label for="f_email">E-mail</label>
+            <input type="text" id="f_email">
+            <label for="f_msj">Mensaje</label>
+            <textarea id="f_msj" cols="30" rows="10" placeholder="Máximo 200 carácteres"></textarea>
+            <div id="errores"></div>
+            <button type="submit">Enviar</button>
         </form>
-        
+        <div id="mensajes"></div>
     </main>
     <footer>
         <div class="pie">

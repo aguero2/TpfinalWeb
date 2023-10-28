@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,58 +9,57 @@
     <link rel="stylesheet" href="style.css">
     <title>Bicicletas</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="productos.html">Productos</a>
-            <a href="formulario.html">Formulario</a>
-        </nav>
-        <div class="carrusel"> 
-            <img id="imag" src="img/carrusel1.jpg" alt="centro">
-            <button id="banterior" type="button">◀</button>
-            <button id="bsiguiente" type="button">▶</button>
-        </div>
 
-    </header>
-    <main>
-        <section class=" pres">
-            <h1>Nuestras Bicicletas</h1>
-            <p> Somos la cadena de bicicleterias mas grande del pais </p>
-        </section>
-        <section>
-            <div> 
-                <a href="productos.html"><img src="img/XR89-SRAM_.png" alt="Bicicletas"></a>
-                <p>Bicicletas</p>
+<body>
+    <div class="fondo">
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+        <main>
+            <section class=" pres">
+                <h1>Nuestras Bicicletas</h1>
+                <p> Somos la cadena de bicicleterias mas grande del pais </p>
+            </section>
+            <section class="productos">
+                <a href="/productos.html#bici"><img src="/img/bicicleta icono.png" alt="Bicicletas"></a>
+                <a href="/productos.html#art"><img src="/img/guantes.png" alt="Articulos"></a>
+                <a href="/productos.html#ind"><img src="/img/ropa-de-deporte.png" alt="Indumentaria"></a>
+            </section>
+
+            <div class="carrusel">
+                <img id="imag" src="img/carrusel1.jpg" alt="centro">
+                <button id="banterior" type="button">◀</button>
+                <button id="bsiguiente" type="button">▶</button>
+            </div>
+
+            <section class="consultas">
+                <h1>Taller mecanico</h1>
+                <p>Todas nuestras tiendas cuentan con un taller mecanico</p>
+                <br>
+                <button type="button"><a href="/formulario.html">CONSULTAS AQUI</a></button>
+            </section>
+
+        </main>
+        <footer>
+            <div class="pie">
+                <img src="img/bicicleta (1).png" alt="Logo bicicleta">
             </div>
             <div>
-                <a href="productos.html"><img src="img/Casaca_ElementVerde_001.jpg" alt="Indumentaria"></a>
-                <p>Indumentaria</p>
+                <ul>
+                    <li><i class='bx bx-location-plus'></i>Villa Mercedes</li>
+                    <li><i class='bx bx-phone'></i>2657-229403</li>
+                    <li><i class='bx bxl-gmail'></i>infobicicleteria@gmail.com</li>
+                </ul>
             </div>
-        </section>
-        <section>
-            <h1>Taller mecanico</h1>
-            <p>Todas nuestras tiendas cuentan con un taller mecanico</p>
-        </section>
-
-        
-
-    </main>
-    <footer>
-        <div class="pie">
-            <img src="img/bicicleta (1).png" alt="Logo bicicleta">
-            <ul>
-                <li><i class='bx bx-location-plus'></i>Villa Mercedes</li>
-                <li><i class='bx bx-phone' ></i>2657-229403</li>
-                <li><i class='bx bxl-gmail' ></i>agueroisma@gmail.com</li>
-            </ul>
-            
-        </div>
-
+    </div>
     </footer>
+    </div>
     <p>Todos los derechos reservados</p>
-    
-
-    <script src="carrusel.js" ></script>
+    <script src="carrusel.js"></script>
 </body>
+
 </html>
